@@ -1,0 +1,428 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/img/fondo-tarjeta.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    background: $Bl;
+}
+
+h2 {
+    font-size: 44px;
+    background: $Bl;
+}
+
+h3 {
+    font-size: 40px;
+    background: $Bl;
+}
+
+h4 {
+    font-size: 36px;
+    background: $Bl;
+}
+
+h5 {
+    font-size: 32px;
+    background: $Bl;
+}
+
+p {
+    background: $Bl;
+}
+
+.top {
+    width: 100%;
+    height: 14px;
+    background: $Cfo;
+}
+
+.video {
+    text-align: center;
+    width: 100%;
+
+    .video-in {
+        width: 720px;
+        height: 1280px;
+        box-shadow: 5px 5px 10px;
+    }
+}
+
+.separador__blanco {
+    border: 2px solid $Bl;
+    height: 4px;
+    width: 100%;
+    border-style: dashed;
+}
+
+.card__header {
+    font-family: 'Dancing Script', cursive;
+
+    .download__vid {
+        color: $Bl;
+        background: $Cf;
+        width: 120px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 6px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 5px 5px 10px;
+    
+        &:hover {
+            transition: all .6s;
+            color: $Cf;
+            background: $Bl;
+        }
+    }
+}
+
+.body__img--copas,
+.iglesia__img--png {
+    width: 100px;
+}
+
+.card__body {
+    font-family: 'Poppins', sans-serif;
+    color: $Cf;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: center;
+
+    .card__footer--info {
+        border: 2px dashed #C3938C;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif;
+        padding: 10px 6px 6px 6px;
+        height: 46px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .contact__wp {
+        color: $Bl;
+        background: $Cf;
+        border-radius: 5px;
+        margin: 6px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 5px 5px 10px;
+        font-family: 'Poppins', sans-serif;
+
+        &:hover {
+            transition: all .6s;
+            color: $Cf;
+            background: $Bl;
+        }
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 16px;
+
+    .card {
+        width: 60%;
+        padding: 4%;
+        display: block;
+        text-align: center;
+        background: $Bl;
+        opacity: 80%;
+        box-shadow: 5px 5px 10px;
+        border-radius: 5px;
+
+        .contador__fecha {
+            margin-top: 30px;
+        }
+
+        .body--text {
+            font-size: 24px;
+        }
+
+        .body--text,
+        .card-footer {
+            margin-top: 30px;
+
+            .card__footer--info {
+                margin: 20px 0px 0px 0px;
+            }
+        }
+    }
+}
+
+.dc {
+    justify-content: space-around;
+
+    .dress__code--content {
+        font-size: 28px;
+    }
+}
+
+.protocolo {
+    background: $Cfo;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 40px;
+    padding: 20px;
+
+    .protocolo__header--title {
+        font-size: 38px;
+        background: none;
+        color: $Bl;
+    }
+
+    .protocolo__body {
+        padding: 20px;
+
+        .protocolo__body--img {
+            width: 940px;
+        }
+
+        .protocolo__eff {
+            .ceremonia {
+                text-decoration: none;
+
+                .eff__link--img {
+                    width: 130px;
+                    margin-top: -847px;
+                    margin-left: -630px;
+                    opacity: 0%;
+                }
+
+                .eff__link--txt {
+                    opacity: 0%;
+                    margin-top: -50px;
+                    background: none;
+                    font-size: 34px;
+                    color: $Bl;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    transition: all .6s;
+
+                    .eff__link--img,
+                    .eff__link--txt {
+                        transition: all .6s;
+                        opacity: 100%;
+                    }
+
+                    .eff__link--txt {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .fotos {
+                text-decoration: none;
+
+                .img__fotos {
+                    width: 134px;
+                    margin-top: -936px;
+                    margin-left: -128px;
+                    opacity: 0%;
+                }
+
+                .eff__link--txt {
+                    opacity: 0%;
+                    margin-top: -100px;
+                    background: none;
+                    font-size: 34px;
+                    color: $Bl;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    transition: all .6s;
+
+                    .img__fotos,
+                    .eff__link--txt {
+                        transition: all .6s;
+                        opacity: 100%;
+                    }
+                }
+            }
+
+            .pastel {
+                text-decoration: none;
+
+                .img__pastel {
+                    width: 134px;
+                    margin-top: -912px;
+                    margin-left: 370px;
+                    opacity: 0%;
+                }
+
+                .eff__link--txt {
+                    opacity: 0%;
+                    margin-top: -80px;
+                    background: none;
+                    font-size: 34px;
+                    color: $Bl;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    transition: all .6s;
+
+                    .img__pastel,
+                    .eff__link--txt {
+                        transition: all .6s;
+                        opacity: 100%;
+                    }
+                }
+            }
+
+            .shots {
+                text-decoration: none;
+
+                .img__shots {
+                    width: 134px;
+                    margin-top: -390px;
+                    margin-left: -380px;
+                    opacity: 0%;
+                }
+
+                .eff__link--txt {
+                    opacity: 0%;
+                    margin-top: -80px;
+                    background: none;
+                    font-size: 34px;
+                    color: $Bl;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    transition: all .6s;
+
+                    .img__shots,
+                    .eff__link--txt {
+                        transition: all .6s;
+                        opacity: 100%;
+                    }
+                }
+            }
+
+            .cena {
+                text-decoration: none;
+
+                .img__cena {
+                    width: 134px;
+                    margin-top: -408px;
+                    margin-left: 120px;
+                    opacity: 0%;
+                }
+
+                .eff__link--txt {
+                    opacity: 0%;
+                    margin-top: -80px;
+                    background: none;
+                    font-size: 34px;
+                    color: $Bl;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    transition: all .6s;
+
+                    .img__cena,
+                    .eff__link--txt {
+                        transition: all .6s;
+                        opacity: 100%;
+                    }
+                }
+            }
+
+            .rumba {
+                text-decoration: none;
+
+                .img__rumba {
+                    width: 134px;
+                    margin-top: -430px;
+                    margin-left: 610px;
+                    opacity: 0%;
+                }
+
+                .eff__link--txt {
+                    opacity: 0%;
+                    margin-top: -80px;
+                    background: none;
+                    font-size: 34px;
+                    color: $Bl;
+                    text-decoration: none;
+                }
+
+                &:hover {
+                    transition: all .6s;
+
+                    .img__cena,
+                    .eff__link--txt {
+                        transition: all .6s;
+                        opacity: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.container {
+    padding: 0px;
+}
+
+@media (min-width: 300px) and (max-width: 1080px) {
+    .video {    
+        .video-in {
+            width: 90%;
+            height: 700px;
+            box-shadow: 5px 5px 10px;
+        }
+    }
+
+    .container {
+        .card {
+            width: 90%;
+        }
+    }
+
+    .protocolo {
+        .protocolo__body {
+            padding: 0px;
+
+            .protocolo__body--img {
+                width: 100%;
+            }
+
+            .protocolo__eff {
+                .eff__link {
+
+                    .eff__link--img,
+                    .img__fotos,
+                    .img__pastel,
+                    .img__shots,
+                    .img__cena,
+                    .img__rumba {
+                        display: none;
+                    }
+
+                    .eff__link--txt {
+                        opacity: 100%;
+                        margin: 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+.ca {
+    .card {
+        .card__body {
+            .ca__title {
+                .ca__title--txt {
+                    font-size: 18px;
+                    margin: 20px;
+                    padding: 10px;
+                    color: $Gr;
+                }
+            }
+
+            .ca__content {
+                .ca__list {
+                    display: grid;
+                    margin: 0px;
+                    padding: 0px;
+                    .ca__list--item {
+                        margin: 6px;
+                        .list__item--link {
+                            cursor: pointer;
+                            color: $Bl;
+                            background: $Cf;
+                            text-decoration: none;
+                            font-size: 18px;
+                            padding: 8px;
+                            border-radius: 5px;
+                            box-shadow: 5px 5px 2px;
+
+                            &:hover {
+                                transition: all .6s;
+                                color: $Cf;
+                                background: $Bl;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modales__asistencia {
+    color: $Bl;
+
+    .form-check {
+        display: flex;
+        justify-content: start;
+    
+        .form-check-input {
+            margin-right: 10px;
+        }
+    }
+}
+
+.form-group {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    .form-control {
+        width: 180px;
+        margin-right: 10px;
+    }
+}
+
+.modal-body {
+    .form__intro {
+        color: $Bl;
+        background: none;
+    }
+}

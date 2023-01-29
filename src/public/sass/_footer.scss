@@ -1,0 +1,127 @@
+footer {
+    background: $Cf;
+    padding: 20px;
+    text-align: center;
+
+    .cont {
+        background: $Cf;
+
+        .header__footer--title,
+        .body__contact--title {
+            font-family: 'Dancing Script', cursive;
+            margin-top: 40px;
+        }
+
+        .header__footer--title,
+        .body__footer--title,
+        .body__contact--title {
+            background: $Cf;
+            color: $Bl;
+        }
+
+        .body__footer--title {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .confirm__ass {
+            color: $Bl;
+            background: $Cfo;
+            width: 120px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 6px;
+            text-decoration: none;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 10px;
+            font-family: 'Poppins', sans-serif;
+
+            &:hover {
+                transition: all .6s;
+                color: $Cfo;
+                background: $Bl;
+            }
+        }
+
+        .body__contact--body {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            .contact__wp {
+                color: $Bl;
+                background: $Cfo;
+                border-radius: 5px;
+                margin: 6px;
+                text-decoration: none;
+                padding: 10px;
+                margin: 20px;
+                box-shadow: 5px 5px 10px;
+                font-family: 'Poppins', sans-serif;
+
+                &:hover {
+                    transition: all .6s;
+                    color: $Cfo;
+                    background: $Bl;
+                }
+            }
+        }
+
+        .body__contact--hashtag {
+            margin-top: 40px;
+            font-family: 'Poppins', sans-serif;
+
+            .contact__hs {
+                color: $Bl;
+                text-decoration: none;
+                font-size: 38px;
+
+                &:hover {
+                    transition: all .6s;
+                    color: $Cfo;
+                }
+            }
+        }
+    }
+}
+
+.footer__footer {
+    padding: 12px;
+    color: $Bl;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.footer__footer,
+.footer__footer--title,
+.footer__footer--link {
+    background: $Cf;
+    color: $Bl;
+    text-decoration: none;
+}
+
+.footer__footer--link {
+    &:hover {
+        transition: all .6s;
+        color: $Cf;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1080px) {
+    footer .cont .body__contact--hashtag .contact__hs {
+        color: #FCFCFC;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    footer .cont .body__contact--body {
+        display: block;
+        justify-content: center;
+        margin-top: 20px;
+
+        .body__contact--wp,
+        .body__contact--tel {
+            margin-bottom: 40px;
+        }
+    }
+}

@@ -1,0 +1,282 @@
+<div class="top"></div>
+
+<div class="ca">
+    <div class="container">
+        <div class="card">
+            <div class="card__header">
+                <h1 class="ca__title">Confirma tu asistencia a la boda</h1>
+            </div>
+
+            <div class="card__body">
+                <div class="ca__title">
+                    <h3 class="ca__title--txt">Confirma tu asistencia eligiendo tu nombre o el de tu familia en el
+                        listado a continuación:</h3>
+                </div>
+                <div class="ca__content">
+                    <ul class="ca__list">
+                        <li class="ca__list--item">
+                            <a data-bs-target="#fliaMb" data-bs-toggle="modal" class="list__item--link">
+                                Familia de la Novia
+                            </a>
+                        </li>
+
+                        <li class="ca__list--item">
+                            <a data-bs-target="#fliaB" data-bs-toggle="modal" class="list__item--link">
+                                Familia del Novio
+                            </a>
+                        </li>
+
+                        <li class="ca__list--item">
+                            <a data-bs-target="#fliaRb" data-bs-toggle="modal" class="list__item--link">
+                                Amig@s
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modales__asistencia">
+
+    <div class="modal fade" id="fliaMb" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal__header">
+                    <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Familia de la Novia
+                    </h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/fliamb" method="post" class="form__flia--mb">
+                        <p class="form__intro">
+                            Selecciona los asistentes del listado a continuación. Luego puedes confirmar haciendo clic en el botón "Enviar"
+                        </p>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn1" value="Luz Mary Bedoya">
+                            <label class="form-check-label"> Luz Mary Bedoya Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn2" value="Luis Marino Munera">
+                            <label class="form-check-label"> Luis Marino Múnera Vinasco</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn3" value="John Edison Munera">
+                            <label class="form-check-label"> John Edison Múnera Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn4" value="Mónica Betancur">
+                            <label class="form-check-label"> Mónica Betancur Tabares</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn5" value="Patricia Bedoya">
+                            <label class="form-check-label"> Patricia Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn6" value="Francisco Rivera">
+                            <label class="form-check-label"> Francisco Rivera</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn7" value="Luisa Rivera">
+                            <label class="form-check-label"> Luisa Rivera</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn8" value="Sara Rivera">
+                            <label class="form-check-label"> Sara Rivera</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn9" value="Camila Rivera">
+                            <label class="form-check-label"> Camila Rivera</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn10" value="Alejandro Ocampo">
+                            <label class="form-check-label"> Alejandro Ocampo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn11" value="Jeysman Albert Marmol">
+                            <label class="form-check-label"> Jeysman Albert Marmol</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn12" value="Laura Zapata">
+                            <label class="form-check-label"> Laura Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn13" value="Carlos Rogelio Sarmiento">
+                            <label class="form-check-label"> Carlos Rogelio Sarmiento</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn14" value="Hilda Zapata">
+                            <label class="form-check-label"> Hilda Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn15" value="Luciana Sarmiento">
+                            <label class="form-check-label"> Luciana Sarmiento</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn16" value="Francisco Bedoya">
+                            <label class="form-check-label"> Francisco Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn17" value="Ángela Vargas">
+                            <label class="form-check-label"> Ángela Vargas</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn18" value="Alejandra Bedoya">
+                            <label class="form-check-label"> Alejandra Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn19" value="Juan José Bedoya">
+                            <label class="form-check-label"> Juan José Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn20" value="Edilia Zapata">
+                            <label class="form-check-label"> Edilia Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn21" value="Natalia Bedoya">
+                            <label class="form-check-label"> Natalia Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn22" value="Camilo Garcés">
+                            <label class="form-check-label"> Camilo Garcés</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn23" value="Isabela García Bedoya">
+                            <label class="form-check-label"> Isabela García Bedoya</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn24" value="Rubiela Bedoya">
+                            <label class="form-check-label"> Rubiela Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn25" value="Andrés Franco">
+                            <label class="form-check-label"> Andrés Franco</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn26" value="Emmanuel Gómez">
+                            <label class="form-check-label"> Emmanuel Gómez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn27" value="Maria José Zapata">
+                            <label class="form-check-label"> Maria José Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn28" value="Diego Alexander Gómez">
+                            <label class="form-check-label"> Diego Alexander Gómez</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn29" value="Lucía Bedoya">
+                            <label class="form-check-label"> Lucía Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn30" value="Moisés Aguilar">
+                            <label class="form-check-label"> Moisés Aguilar</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn29" value="Lucía Bedoya">
+                            <label class="form-check-label"> Lucía Bedoya</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fliaB" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal__header">
+                    <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Familia Bedoya
+                    </h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/fliab" method="post" class="form__flia--b">
+                        <p class="form__intro">
+                            Selecciona los asistentes del listado a continuación y déjanos saber si cuentas con algún
+                            invitado adicional. Luego puedes confirmar haciendo clic en el botón "Enviar"
+                        </p>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliaba" value="Edilia Zapata">
+                            <label class="form-check-label"> Edilia Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliabb" value="Natalia Bedoya">
+                            <label class="form-check-label"> Natalia Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliabd" value="Camilo Garces Bedoya">
+                            <label class="form-check-label"> Camilo Garces Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliabe" value="Isabela Bedoya">
+                            <label class="form-check-label"> Isabela Bedoya</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fliaRb" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal__header">
+                    <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Familia Bedoya
+                    </h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/fliarb" method="post" class="form__flia--b">
+                        <p class="form__intro">
+                            Selecciona los asistentes del listado a continuación y déjanos saber si cuentas con algún
+                            invitado adicional. Luego puedes confirmar haciendo clic en el botón "Enviar"
+                        </p>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliarba" value="Patricia Bedoya">
+                            <label class="form-check-label"> Patricia Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliarbab" value="Francisco Rivera">
+                            <label class="form-check-label"> Francisco Rivera</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fliarbac" value="Luisa Fernanda">
+                            <label class="form-check-label"> Luisa Fernanda</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

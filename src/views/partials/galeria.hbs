@@ -1,0 +1,484 @@
+<div class="galeria">
+    <div class="container galeria__title">
+        <div class="galeria__header">
+            <h2 class="galeria__header--txt" style="font-size: 38px; background: none; color: white;">Galería</h2>
+            <img src="/img/cam.png" alt="" class="galeria__header--img">
+            <p class="galeria__header--cont">
+                Desliza para ver todas las fotos<br>Haz clic para ver la foto en tamaño completo
+            </p>
+        </div>
+    </div>
+
+    <div class="container carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="d-flex">
+                        <div class="d-block">
+                            <div class="d-flex">
+                                <a data-bs-target="#fotoA" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-c.jpg" alt="" class="modal__img">
+                                </a>
+                                <a data-bs-target="#fotoB" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-d.jpg" alt="" class="modal__img">
+                                </a>
+                            </div>
+                            <div class="d-block">
+                                <a data-bs-target="#fotoC" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-a.jpg" alt="" class="modal__img--d">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-block">
+                            <a data-bs-target="#fotoD" data-bs-toggle="modal" class="carousel__modal">
+                                <img src="/img/foto-e.jpg" alt="" class="modal__img--e">
+                            </a>
+                        </div>
+                        <div class="d-block">
+                            <a data-bs-target="#fotoE" data-bs-toggle="modal" href="" class="carousel__modal">
+                                <img src="/img/foto-f.jpg" alt="" class="modal__img--e">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex">
+                        <div class="d-block">
+                            <div class="d-flex">
+                                <a data-bs-target="#fotoG" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-g.jpg" alt="" class="modal__img">
+                                </a>
+                                <a data-bs-target="#fotoH" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-i.jpg" alt="" class="modal__img">
+                                </a>
+                            </div>
+                            <div class="d-block">
+                                <a data-bs-target="#fotoI" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-h.jpg" alt="" class="modal__img--d">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-block">
+                            <a data-bs-target="#fotoJ" data-bs-toggle="modal" class="carousel__modal">
+                                <img src="/img/foto-j.jpg" alt="" class="modal__img--e">
+                            </a>
+                        </div>
+                        <div class="d-block">
+                            <a data-bs-target="#fotoK" data-bs-toggle="modal" href="" class="carousel__modal">
+                                <img src="/img/foto-k.jpg" alt="" class="modal__img--e">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex">
+                        <div class="d-block">
+                            <div class="d-flex">
+                                <a data-bs-target="#fotoL" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-l.jpg" alt="" class="modal__img">
+                                </a>
+                                <a data-bs-target="#fotoM" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-m.jpg" alt="" class="modal__img">
+                                </a>
+                            </div>
+                            <div class="d-block">
+                                <a data-bs-target="#fotoN" data-bs-toggle="modal" class="carousel__modal">
+                                    <img src="/img/foto-n.jpg" alt="" class="modal__img--d">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-block">
+                            <a data-bs-target="#fotoO" data-bs-toggle="modal" class="carousel__modal">
+                                <img src="/img/foto-o.jpg" alt="" class="modal__img--e">
+                            </a>
+                        </div>
+                        <div class="d-block">
+                            <a data-bs-target="#fotoP" data-bs-toggle="modal" href="" class="carousel__modal">
+                                <img src="/img/foto-p.jpg" alt="" class="modal__img--e">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+{{!-- Modales Primera Sección--}}
+
+<div class="modal fade" id="fotoA" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Foto #1</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-c.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="modal__footer">
+                <button class="btn btn-primary" data-bs-target="#fotoB" data-bs-toggle="modal">Siguiente Foto</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoB" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-xl bg-darkmodal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #2</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-d.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoA" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoC" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoC" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #3</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-a.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoB" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoD" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoD" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #4</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-e.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoC" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoE" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoE" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #5</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-f.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoD" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoG" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Modales Segunda Sección--}}
+
+<div class="modal fade" id="fotoG" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Foto #1</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-g.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoE" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoH" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoH" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-xl bg-darkmodal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #2</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-i.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoG" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoI" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoI" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #3</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-h.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoH" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoJ" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoJ" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #4</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-j.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoI" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoK" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoK" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #5</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-k.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoJ" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoL" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{!-- Modales Tercera Sección--}}
+
+<div class="modal fade" id="fotoL" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Foto #1</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-l.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoK" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoM" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoM" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-xl bg-darkmodal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #2</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-m.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoL" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoN" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoN" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #3</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-n.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoM" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoO" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoO" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #4</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-o.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoN" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoP" data-bs-toggle="modal">Siguiente
+                        Foto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="fotoP" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-xl bg-dark modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal__header">
+                <h2 class="modal-title fs-5" id="exampleModalToggleLabel2">Foto #5</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="/img/foto-p.jpg" alt="" class="modal__foto">
+            </div>
+            <div class="d-flex" style="justify-content: space-around;">
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoO" data-bs-toggle="modal">Volver a la
+                        anterior</button>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" data-bs-target="#fotoA" data-bs-toggle="modal">Volver a la primera</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
