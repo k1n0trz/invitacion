@@ -1,0 +1,24 @@
+.confirmados {
+    display: block;
+
+    .confirmados__header {
+        background: none;
+        .confirmados__title {
+            background: none;
+        }
+    }
+
+    .confirmados__list {
+        display: grid;
+        margin-top: 60px;
+
+        .confirmados__item {
+            background: none;
+            padding: 0px;
+
+            .confirmados__item--name {
+                background: none;
+            }
+        }
+    }
+}

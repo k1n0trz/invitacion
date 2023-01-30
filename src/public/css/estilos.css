@@ -754,6 +754,27 @@ li span {
   background: none;
 }
 
+.confirmados {
+  display: block;
+}
+.confirmados .confirmados__header {
+  background: none;
+}
+.confirmados .confirmados__header .confirmados__title {
+  background: none;
+}
+.confirmados .confirmados__list {
+  display: grid;
+  margin-top: 60px;
+}
+.confirmados .confirmados__list .confirmados__item {
+  background: none;
+  padding: 0px;
+}
+.confirmados .confirmados__list .confirmados__item .confirmados__item--name {
+  background: none;
+}
+
 @font-face {
   font-family: "fontello";
   src: url("../font/fontello.eot?30185667");
