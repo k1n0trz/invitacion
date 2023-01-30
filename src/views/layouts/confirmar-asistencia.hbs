@@ -15,19 +15,19 @@
                 <div class="ca__content">
                     <ul class="ca__list">
                         <li class="ca__list--item">
-                            <a data-bs-target="#fliaMb" data-bs-toggle="modal" class="list__item--link">
+                            <a data-bs-target="#flianovia" data-bs-toggle="modal" class="list__item--link">
                                 Familia de la Novia
                             </a>
                         </li>
 
                         <li class="ca__list--item">
-                            <a data-bs-target="#fliaB" data-bs-toggle="modal" class="list__item--link">
+                            <a data-bs-target="#flianovio" data-bs-toggle="modal" class="list__item--link">
                                 Familia del Novio
                             </a>
                         </li>
 
                         <li class="ca__list--item">
-                            <a data-bs-target="#fliaRb" data-bs-toggle="modal" class="list__item--link">
+                            <a data-bs-target="#amigos" data-bs-toggle="modal" class="list__item--link">
                                 Amig@s
                             </a>
                         </li>
@@ -41,16 +41,16 @@
 
 <div class="modales__asistencia">
 
-    <div class="modal fade" id="fliaMb" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="flianovia" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal__header">
                     <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Familia de la Novia
                     </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="/fliamb" method="post" class="form__flia--mb">
-                    <div class="modal-body">
+                <div class="modal-body">
+                    <form action="/flianovia" method="post" class="form__flia--mb">
                         <p class="form__intro">
                             Selecciona los asistentes del listado a continuación. Luego puedes confirmar haciendo clic
                             en el botón "Enviar"
@@ -292,27 +292,26 @@
                             <input type="checkbox" class="form-check-input" name="fn53" value="Marilyn Múnera">
                             <label class="form-check-label"> Marilyn Múnera</label>
                         </div>
-
-                    </div>
-                    <div class="modal__footer">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <div class="modal__footer">
+                    <button type="button" class="btn btn-primary" type="submit">Enviar</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="fliaB" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="flianovio" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
+
             <div class="modal-content">
                 <div class="modal__header">
                     <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Familia del Novio
                     </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="/fliab" method="post" class="form__flia--b">
-                    <div class="modal-body">
-
+                <div class="modal-body">
+                    <form action="/flianovio" method="post" class="form__flia--b">
                         <p class="form__intro">
                             Selecciona los asistentes del listado a continuación. Luego puedes confirmar haciendo clic
                             en el botón "Enviar"
@@ -405,37 +404,353 @@
                             <input type="checkbox" class="form-check-input" name="fn72" value="Abel Andrés Restrepo">
                             <label class="form-check-label"> Abel Andrés Restrepo</label>
                         </div>
-                    </div>
-                    <div class="modal__footer">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                <div class="modal__footer">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="fliaRb" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal fade" id="amigos" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal__header">
                     <h2 class="modal-title fs-5" id="exampleModalToggleLabel">Amig@s de la pareja
                     </h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <form action="/fliarb" method="post" class="form__flia--b">
-                    <div class="modal-body">
-
+                <div class="modal-body">
+                    <form action="/amigos" method="post" class="form__flia--b">
                         <p class="form__intro">
                             Selecciona los asistentes del listado a continuación. Luego puedes confirmar haciendo clic
                             en el botón "Enviar"
                         </p>
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="fliarba" value="Patricia Bedoya">
-                            <label class="form-check-label"> Patricia Bedoya</label>
+                            <input type="checkbox" class="form-check-input" name="fn73" value="Carlos Mario Vargas">
+                            <label class="form-check-label"> Carlos Mario Vargas</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn74" value="Natalia Serna">
+                            <label class="form-check-label"> Natalia Serna</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn75" value="John Morales">
+                            <label class="form-check-label"> John Morales</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn76" value="Johana Gallego">
+                            <label class="form-check-label"> Johana Gallego</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn77" value="Juan Zapata">
+                            <label class="form-check-label"> Juan Zapata</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn78" value="Viviana Muñoz">
+                            <label class="form-check-label"> Viviana Muñoz</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn79" value="Pedro Pablo Cardona">
+                            <label class="form-check-label"> Pedro Pablo Cardona</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn80" value="Luisa María Vélez">
+                            <label class="form-check-label"> Luisa María Vélez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn81" value="Andrés Velásquez">
+                            <label class="form-check-label"> Andrés Velásquez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn82" value="Nathally Bedoya">
+                            <label class="form-check-label"> Nathally Bedoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn83" value="Carlos Eduardo Uribe">
+                            <label class="form-check-label"> Carlos Eduardo Uribe</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn84" value="Mónica Patricia Navas">
+                            <label class="form-check-label"> Mónica Patricia Navas</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn85" value="Michael Restrepo">
+                            <label class="form-check-label"> Michael Restrepo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn86" value="Daniel Felipe Gutierrez">
+                            <label class="form-check-label"> Daniel Felipe Gutierrez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn87" value="Juan Esteban Jaramillo">
+                            <label class="form-check-label"> Juan Esteban Jaramillo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn88" value="Natalia Rodas">
+                            <label class="form-check-label"> Natalia Rodas</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn89" value="Rafael Uribe">
+                            <label class="form-check-label"> Rafael Uribe</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn90" value="Luisa Fernanda Muñoz">
+                            <label class="form-check-label"> Luisa Fernanda Muñoz</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn91" value="Adrián Orjuela">
+                            <label class="form-check-label"> Adrián Orjuela</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn92" value="Juliana Torres">
+                            <label class="form-check-label"> Juliana Torres</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn93" value="Luber Molina">
+                            <label class="form-check-label"> Luber Molina</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn94" value="Ana Milena Velásquez">
+                            <label class="form-check-label"> Ana Milena Velásquez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn95" value="Sergio Molina">
+                            <label class="form-check-label"> Sergio Molina</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn96" value="Luis Bernardo Molina">
+                            <label class="form-check-label"> Luis Bernardo Molina</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn97" value="3 de ❤">
+                            <label class="form-check-label"> 3 de ❤</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn98" value="Estiven Carrero">
+                            <label class="form-check-label"> Estiven Carrero</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn99" value="Daniela Pérez">
+                            <label class="form-check-label"> Daniela Pérez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn100" value="Jorge Carrero">
+                            <label class="form-check-label"> Jorge Carrero</label>
                         </div>
 
-                    </div>
-                </form>
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn101" value="Johana Deossa">
+                            <label class="form-check-label"> Johana Deossa</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn102" value="Karla Giraldo">
+                            <label class="form-check-label"> Karla Giraldo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn103" value="Andrea Paniagua">
+                            <label class="form-check-label"> Andrea Paniagua</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn104" value="Andrea Rojas">
+                            <label class="form-check-label"> Andrea Rojas</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn105" value="Marcela Zuluaga">
+                            <label class="form-check-label"> Marcela Zuluaga</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn106" value="Marcela Gómez">
+                            <label class="form-check-label"> Marcela Gómez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn107" value="Jessica Montoya">
+                            <label class="form-check-label"> Jessica Montoya</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn108" value="Tatiana Giraldo">
+                            <label class="form-check-label"> Tatiana Giraldo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn109" value="Lency Carolina">
+                            <label class="form-check-label"> Lency Carolina</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn110" value="Ana María Morales">
+                            <label class="form-check-label"> Ana María Morales</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn111" value="Mery Álvarez">
+                            <label class="form-check-label"> Mery Álvarez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn112" value="Oscar Augusto Martinez">
+                            <label class="form-check-label"> Oscar Augusto Martinez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn113" value="Miriam Guerrero">
+                            <label class="form-check-label"> Miriam Guerrero</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn114" value="Claudia Gaviria">
+                            <label class="form-check-label"> Claudia Gaviria</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn115" value="Andrea Otero">
+                            <label class="form-check-label"> Andrea Otero</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn116" value="Luz Elena Agudelo">
+                            <label class="form-check-label"> Luz Elena Agudelo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn117" value="Julio César Diez">
+                            <label class="form-check-label"> Julio César Diez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn118" value="Yenny Paola López">
+                            <label class="form-check-label"> Yenny Paola López</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn119" value="Alejandro Betancur">
+                            <label class="form-check-label"> Alejandro Betancur</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn120"
+                                value="María Isabel Becerra R.">
+                            <label class="form-check-label"> María Isabel Becerra R.</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn121" value="Andrés Parra">
+                            <label class="form-check-label"> Andrés Parra</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn122" value="Sergio Patiño Múnera">
+                            <label class="form-check-label"> Sergio Patiño Múnera</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn123" value="Edwin Elejalde Galvis">
+                            <label class="form-check-label"> Edwin Elejalde Galvis</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn124" value="Ana María Ramirez">
+                            <label class="form-check-label"> Ana María Ramirez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn125"
+                                value="Catherine Rodriguez Sanchez">
+                            <label class="form-check-label"> Catherine Rodriguez Sanchez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn126"
+                                value="Andrea Margarita Rodriguez">
+                            <label class="form-check-label"> Andrea Margarita Rodriguez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn127"
+                                value="Samuel Ganarras Peñas de Ramirez">
+                            <label class="form-check-label"> Samuel Gamarra Peñas de Ramirez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn128" value="Brenda Ruales Díaz">
+                            <label class="form-check-label"> Brenda Ruales Díaz</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn129" value="José Luis Cabrera H">
+                            <label class="form-check-label"> José Luis Cabrera H</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn130" value="Camilo Garzón">
+                            <label class="form-check-label"> Camilo Garzón</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn131" value="Boris Corrales">
+                            <label class="form-check-label"> Boris Corrales</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn132" value="Rubén Villada">
+                            <label class="form-check-label"> Rubén Villada</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn133" value="Tatiana Buriticá">
+                            <label class="form-check-label"> Tatiana Buriticá</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn134" value="Astrid Zuleta">
+                            <label class="form-check-label"> Astrid Zuleta</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn135" value="Fernando León Alzate">
+                            <label class="form-check-label"> Fernando León Alzate</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn136" value="Luz Delia Mayo">
+                            <label class="form-check-label"> Luz Delia Mayo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn137" value="Elida Taborda">
+                            <label class="form-check-label"> Luz Elida Taborda</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn138" value="Andrés Covaleda">
+                            <label class="form-check-label"> Andrés Covaleda</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn139" value="Jorge Nieto">
+                            <label class="form-check-label"> Jorge Nieto</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn140" value="Milena Monsalve">
+                            <label class="form-check-label"> Milena Monsalve</label>
+                        </div>
+
+                        <div class="separador__blanco text-center"></div>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn141"
+                                value="Susana Correa Hernandez">
+                            <label class="form-check-label"> Susana Correa Hernandez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn142" value="Juliana Ospina">
+                            <label class="form-check-label"> Juliana Ospina</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn143" value="Zullyn Yin Cardona">
+                            <label class="form-check-label"> Zullyn Yin Cardona</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn144" value="Karla Yulieth Martinez">
+                            <label class="form-check-label"> Karla Yulieth Martinez</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn145" value="Jessica Tobon Naranjo">
+                            <label class="form-check-label"> Jessica Tobon Naranjo</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn146" value="Maria José Espinosa">
+                            <label class="form-check-label"> Maria José Espinosa</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn147" value="Marielli López">
+                            <label class="form-check-label"> Marielli López</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="fn148"
+                                value="Andrea Carolina Otálvaro">
+                            <label class="form-check-label"> Andrea Carolina Otálvaro</label>
+                        </div>
+                    </form>
+                </div>
                 <div class="modal__footer">
                     <button class="btn btn-primary" type="submit">Enviar</button>
                 </div>

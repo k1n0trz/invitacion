@@ -733,6 +733,7 @@ li span {
 .modales__asistencia .form-check {
   display: flex;
   justify-content: start;
+  margin-top: 10px;
 }
 .modales__asistencia .form-check .form-check-input {
   margin-right: 10px;
