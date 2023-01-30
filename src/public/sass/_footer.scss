@@ -6,6 +6,10 @@ footer {
     .cont {
         background: $Cf;
 
+        .header__footer {
+            margin-bottom: 20px;
+        }
+
         .header__footer--title,
         .body__contact--title {
             font-family: 'Dancing Script', cursive;
@@ -29,10 +33,9 @@ footer {
             width: 120px;
             cursor: pointer;
             border-radius: 5px;
-            margin: 6px;
             text-decoration: none;
             padding: 10px;
-            margin: 20px;
+            margin-top: 40px;
             box-shadow: 5px 5px 10px;
             font-family: 'Poppins', sans-serif;
 

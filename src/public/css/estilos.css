@@ -160,7 +160,7 @@ p {
 }
 
 .protocolo {
-  background: rgba(75, 70, 38, 0.7607843137);
+  background: rgba(175, 125, 100, 0.7294117647);
   text-align: center;
   font-family: "Dancing Script", cursive;
   margin-top: 40px;
@@ -372,6 +372,9 @@ footer {
 footer .cont {
   background: #717252;
 }
+footer .cont .header__footer {
+  margin-bottom: 20px;
+}
 footer .cont .header__footer--title,
 footer .cont .body__contact--title {
   font-family: "Dancing Script", cursive;
@@ -392,10 +395,9 @@ footer .cont .confirm__ass {
   width: 120px;
   cursor: pointer;
   border-radius: 5px;
-  margin: 6px;
   text-decoration: none;
   padding: 10px;
-  margin: 20px;
+  margin-top: 40px;
   box-shadow: 5px 5px 10px;
   font-family: "Poppins", sans-serif;
 }
@@ -586,7 +588,7 @@ li span {
   }
 }
 .galeria {
-  background: rgba(75, 70, 38, 0.7607843137);
+  background: rgba(175, 125, 100, 0.7294117647);
 }
 .galeria .galeria__header {
   font-family: "Dancing Script", cursive;
