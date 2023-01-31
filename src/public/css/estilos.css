@@ -193,6 +193,15 @@ p {
   padding: 0px;
 }
 
+.adv .body--text .adv__list {
+  display: grid;
+}
+.adv .body--text .adv__list .adv__item {
+  text-transform: capitalize;
+  font-size: 28px;
+  padding: 4px;
+}
+
 @media (min-width: 300px) and (max-width: 1080px) {
   .video .video-in {
     width: 90%;
@@ -240,6 +249,7 @@ footer .cont .header__footer--title,
 footer .cont .body__contact--title {
   font-family: "Dancing Script", cursive;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 footer .cont .header__footer--title,
 footer .cont .body__footer--title,

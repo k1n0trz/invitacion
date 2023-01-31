@@ -209,6 +209,19 @@ p {
     padding: 0px;
 }
 
+.adv {
+    .body--text {
+        .adv__list {
+            display: grid;
+            .adv__item {
+                text-transform: capitalize;
+                font-size: 28px;
+                padding: 4px;
+            }
+        }
+    }
+}
+
 @media (min-width: 300px) and (max-width: 1080px) {
     .video {
         .video-in {
