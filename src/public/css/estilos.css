@@ -218,6 +218,12 @@ p {
     text-transform: capitalize;
     padding: 0px;
   }
+  .dc {
+    justify-content: space-around;
+  }
+  .dc .dress__code--content {
+    font-size: 16px;
+  }
 }
 footer {
   background: #717252;
