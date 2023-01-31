@@ -162,7 +162,6 @@ p {
 .protocolo {
   background: rgba(175, 125, 100, 0.7294117647);
   text-align: center;
-  font-family: "Dancing Script", cursive;
   margin-top: 40px;
   padding: 20px;
 }
@@ -170,165 +169,24 @@ p {
   font-size: 38px;
   background: none;
   color: #FCFCFC;
+  font-family: "Dancing Script", cursive;
 }
 .protocolo .protocolo__body {
   padding: 20px;
 }
+.protocolo .protocolo__body .protocolo__eff .protocolo__listado {
+  padding: 0px;
+}
+.protocolo .protocolo__body .protocolo__eff .protocolo__listado .protocolo__item {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.protocolo .protocolo__body .protocolo__eff .protocolo__listado .protocolo__item .eff__link--txt {
+  color: #FCFCFC;
+  background: none;
+}
 .protocolo .protocolo__body .protocolo__body--img {
   width: 940px;
-}
-.protocolo .protocolo__body .protocolo__eff .ceremonia {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .ceremonia .eff__link--img {
-  width: 130px;
-  margin-top: -847px;
-  margin-left: -630px;
-  opacity: 0%;
-}
-.protocolo .protocolo__body .protocolo__eff .ceremonia .eff__link--txt {
-  opacity: 0%;
-  margin-top: -50px;
-  background: none;
-  font-size: 34px;
-  color: #FCFCFC;
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .ceremonia:hover {
-  transition: all 0.6s;
-}
-.protocolo .protocolo__body .protocolo__eff .ceremonia:hover .eff__link--img,
-.protocolo .protocolo__body .protocolo__eff .ceremonia:hover .eff__link--txt {
-  transition: all 0.6s;
-  opacity: 100%;
-}
-.protocolo .protocolo__body .protocolo__eff .ceremonia:hover .eff__link--txt {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .fotos {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .fotos .img__fotos {
-  width: 134px;
-  margin-top: -936px;
-  margin-left: -128px;
-  opacity: 0%;
-}
-.protocolo .protocolo__body .protocolo__eff .fotos .eff__link--txt {
-  opacity: 0%;
-  margin-top: -100px;
-  background: none;
-  font-size: 34px;
-  color: #FCFCFC;
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .fotos:hover {
-  transition: all 0.6s;
-}
-.protocolo .protocolo__body .protocolo__eff .fotos:hover .img__fotos,
-.protocolo .protocolo__body .protocolo__eff .fotos:hover .eff__link--txt {
-  transition: all 0.6s;
-  opacity: 100%;
-}
-.protocolo .protocolo__body .protocolo__eff .pastel {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .pastel .img__pastel {
-  width: 134px;
-  margin-top: -912px;
-  margin-left: 370px;
-  opacity: 0%;
-}
-.protocolo .protocolo__body .protocolo__eff .pastel .eff__link--txt {
-  opacity: 0%;
-  margin-top: -80px;
-  background: none;
-  font-size: 34px;
-  color: #FCFCFC;
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .pastel:hover {
-  transition: all 0.6s;
-}
-.protocolo .protocolo__body .protocolo__eff .pastel:hover .img__pastel,
-.protocolo .protocolo__body .protocolo__eff .pastel:hover .eff__link--txt {
-  transition: all 0.6s;
-  opacity: 100%;
-}
-.protocolo .protocolo__body .protocolo__eff .shots {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .shots .img__shots {
-  width: 134px;
-  margin-top: -390px;
-  margin-left: -380px;
-  opacity: 0%;
-}
-.protocolo .protocolo__body .protocolo__eff .shots .eff__link--txt {
-  opacity: 0%;
-  margin-top: -80px;
-  background: none;
-  font-size: 34px;
-  color: #FCFCFC;
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .shots:hover {
-  transition: all 0.6s;
-}
-.protocolo .protocolo__body .protocolo__eff .shots:hover .img__shots,
-.protocolo .protocolo__body .protocolo__eff .shots:hover .eff__link--txt {
-  transition: all 0.6s;
-  opacity: 100%;
-}
-.protocolo .protocolo__body .protocolo__eff .cena {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .cena .img__cena {
-  width: 134px;
-  margin-top: -408px;
-  margin-left: 120px;
-  opacity: 0%;
-}
-.protocolo .protocolo__body .protocolo__eff .cena .eff__link--txt {
-  opacity: 0%;
-  margin-top: -80px;
-  background: none;
-  font-size: 34px;
-  color: #FCFCFC;
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .cena:hover {
-  transition: all 0.6s;
-}
-.protocolo .protocolo__body .protocolo__eff .cena:hover .img__cena,
-.protocolo .protocolo__body .protocolo__eff .cena:hover .eff__link--txt {
-  transition: all 0.6s;
-  opacity: 100%;
-}
-.protocolo .protocolo__body .protocolo__eff .rumba {
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .rumba .img__rumba {
-  width: 134px;
-  margin-top: -430px;
-  margin-left: 610px;
-  opacity: 0%;
-}
-.protocolo .protocolo__body .protocolo__eff .rumba .eff__link--txt {
-  opacity: 0%;
-  margin-top: -80px;
-  background: none;
-  font-size: 34px;
-  color: #FCFCFC;
-  text-decoration: none;
-}
-.protocolo .protocolo__body .protocolo__eff .rumba:hover {
-  transition: all 0.6s;
-}
-.protocolo .protocolo__body .protocolo__eff .rumba:hover .img__cena,
-.protocolo .protocolo__body .protocolo__eff .rumba:hover .eff__link--txt {
-  transition: all 0.6s;
-  opacity: 100%;
 }
 
 .container {
@@ -348,20 +206,17 @@ p {
     padding: 0px;
   }
   .protocolo .protocolo__body .protocolo__body--img {
-    width: 100%;
+    margin-top: 40px;
+    width: 90%;
   }
-  .protocolo .protocolo__body .protocolo__eff .eff__link .eff__link--img,
-  .protocolo .protocolo__body .protocolo__eff .eff__link .img__fotos,
-  .protocolo .protocolo__body .protocolo__eff .eff__link .img__pastel,
-  .protocolo .protocolo__body .protocolo__eff .eff__link .img__shots,
-  .protocolo .protocolo__body .protocolo__eff .eff__link .img__cena,
-  .protocolo .protocolo__body .protocolo__eff .eff__link .img__rumba {
-    display: none;
+  .protocolo .protocolo__body .protocolo__eff .protocolo__listado {
+    margin-top: 60px;
+    padding: 0px;
   }
-  .protocolo .protocolo__body .protocolo__eff .eff__link .eff__link--txt {
-    opacity: 100%;
-    margin: 10px;
-    font-size: 20px;
+  .protocolo .protocolo__body .protocolo__eff .protocolo__listado .protocolo__item {
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    padding: 0px;
   }
 }
 footer {
@@ -613,7 +468,7 @@ li span {
 }
 .galeria .modal__img--e {
   height: 618px;
-  margin: 4px;
+  margin: 4px 4px 4px 0px;
 }
 .galeria .carousel-control-prev,
 .galeria .carousel-control-next {
